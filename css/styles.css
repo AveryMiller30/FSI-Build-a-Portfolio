@@ -1,29 +1,58 @@
 body {
+    
     background-color: black;
+    cursor: crosshair;
   }
+
   .Name {
       margin:center;
     color: White;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40pt;
   }
+
   .Position {
-      color:white
+      color:white;
+      text-align: center;
+      font-size: 25pt;
+      
   }
+
+  .Sentence {
+      color:white;
+      text-align: center;
+      font-size: 14pt;
+  }
+
   .Me {
       color:white;
+      text-align: center;
+      font-size: 14pt;
   }
+
   .Projects {
       color:white;
   }
+
   .Contact {
     color: White;
   }
+
   img {
     border-radius:40px;
-    border-width: 15px;
-    border-color: red;
+    border: 15px solid red;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
   }
+
+  hr {
+      color:red;
+  }
+
+  
+
+  
   
