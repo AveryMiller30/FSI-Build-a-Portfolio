@@ -40,17 +40,23 @@ body {
   }
 
   img {
-    border-radius:40px;
+    border-radius:10px;
     border: 15px solid red;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    height: 450px;
+    width: 300px;
+    
   }
 
   hr {
-      color:red;
+      height: 5px;
+      background-color: red;
   }
+
+ 
 
   
 
