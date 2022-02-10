@@ -1,9 +1,29 @@
 body {
     background-color: black;
   }
-  h1 {
+  .Name {
+      margin:center;
     color: White;
   }
-  p {
+  .Position {
+      color:white
+  }
+  .Me {
+      color:white;
+  }
+  .Projects {
+      color:white;
+  }
+  .Contact {
     color: White;
   }
+  img {
+    border-radius:40px;
+    border-width: 15px;
+    border-color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
