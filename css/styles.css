@@ -5,7 +5,7 @@ body {
   }
 
   .Name {
-      margin:center;
+    margin:center;
     color: White;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -39,6 +39,10 @@ body {
     color: White;
   }
 
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+  }
   img {
     border-radius:10px;
     border: 15px solid red;
@@ -55,6 +59,32 @@ body {
       height: 5px;
       background-color: red;
   }
+
+  ul {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+  li a:hover {
+      background-color: red;
+    }
 
  
 
