@@ -33,10 +33,14 @@ body {
 
   .Projects {
       color:white;
+      text-align: center;
+      padding-top: 15%;
   }
 
   .Contact {
     color: White;
+    text-align: center;
+    padding-top: 15%;
   }
 
   .image-container {
@@ -86,7 +90,9 @@ body {
       background-color: red;
     }
 
- 
+ .project-list {
+   color: white;
+ }
 
   
 
