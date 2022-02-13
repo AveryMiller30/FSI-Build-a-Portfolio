@@ -31,16 +31,27 @@ body {
       font-size: 14pt;
   }
 
-  .Projects {
+  .project-list {
       color:white;
-      text-align: center;
-      padding-top: 15%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
   }
 
   .Contact {
     color: White;
-    text-align: center;
-    padding-top: 15%;
+    border: 5px solid red;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+
   }
 
   .image-container {
@@ -90,8 +101,9 @@ body {
       background-color: red;
     }
 
- .project-list {
+ h1 {
    color: white;
+   text-align: center;
  }
 
   
